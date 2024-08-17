@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+}
+
+.box:hover { /* Add hover effect to all elements with class "box" */
+    opacity: 0.4; /* Adjust the opacity as desired */
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+
+.score-board {
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+#userscore, #comscore {
+    font-size: large;
+}
+
+.msgbox {
+    margin-top: 5rem;
+}
+
+#msg {
+    font-size: larger;
+    background-color: black;
+    color: azure;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
